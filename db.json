@@ -1,0 +1,76 @@
+{
+  "libros": [
+    {
+      "titulo": "El corazon delator",
+      "autor": "Edgar Allan Poe",
+      "disponible": false,
+      "id": 1
+    },
+    {
+      "titulo": "Anabell Lee",
+      "autor": "Edgar Allan Poe",
+      "disponible": false,
+      "id": 2
+    },
+    {
+      "titulo": "Los ojos del perro siberiano",
+      "autor": "Antonio Santa Ana",
+      "disponible": true,
+      "id": 3
+    },
+    {
+      "titulo": "El palacio de la Luna",
+      "autor": "Paul Auster",
+      "disponible": true,
+      "id": 4
+    }
+  ],
+  "alumnos": [
+    {
+      "dni": "1111111",
+      "nombre": "Pepe",
+      "direccion": "Buenos Aires 123",
+      "debeLibros": true,
+      "id": 1
+    },
+    {
+      "dni": "1111112",
+      "nombre": "Jacinto",
+      "direccion": "San Juan 1234",
+      "debeLibros": true,
+      "id": 2
+    }
+  ],
+  "prestamo": [
+    {
+      "fechaEntrega": "2023-03-15",
+      "fechaDevolucion": "2023-03-23",
+      "libroId": "1",
+      "alumnoId": "1",
+      "alumno": "Pepe",
+      "libro": "El corazon delator",
+      "pendiente": false,
+      "id": 1
+    },
+    {
+      "fechaEntrega": "2023-03-23",
+      "fechaDevolucion": "2023-03-10",
+      "libroId": "2",
+      "alumnoId": "2",
+      "alumno": "Jacinto",
+      "libro": "Anabell Lee",
+      "pendiente": false,
+      "id": 2
+    },
+    {
+      "fechaEntrega": "2023-03-23",
+      "fechaDevolucion": "",
+      "libroId": "1",
+      "alumnoId": "1",
+      "alumno": "Pepe",
+      "libro": "El corazon delator",
+      "pendiente": true,
+      "id": 3
+    }
+  ]
+}
